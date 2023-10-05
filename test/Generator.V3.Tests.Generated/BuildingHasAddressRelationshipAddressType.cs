@@ -10,11 +10,11 @@ namespace Generator.V3.Tests.Generated
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum BuildingHasAddressRelationshipAddressType
     {
-        [EnumMember(Value = "Mailing"), Display(Name = "Mailing"), SourceValue(Value = "1")]
+        [EnumMember(Value = "Mailing"), Display(Name = "Mailing"), SourceValue(Value = "Mailing")]
         Mailing,
-        [EnumMember(Value = "Street"), Display(Name = "Street"), SourceValue(Value = "2")]
+        [EnumMember(Value = "Street"), Display(Name = "Street"), SourceValue(Value = "Street")]
         Street,
-        [EnumMember(Value = "Temporary"), Display(Name = "Temporary"), SourceValue(Value = "3")]
+        [EnumMember(Value = "Temporary"), Display(Name = "Temporary"), SourceValue(Value = "Temporary")]
         Temporary
     }
 }

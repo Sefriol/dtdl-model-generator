@@ -60,8 +60,8 @@ public class ModelHelperTest
     [TestMethod]
     public void CanExtractSourceValueAttributeFromEnum()
     {
-        Assert.AreEqual("1", BuildingHasAddressRelationshipAddressType.Mailing.GetSourceValue());
-        Assert.AreEqual("1", new BuildingHasAddressRelationship { AddressType = BuildingHasAddressRelationshipAddressType.Mailing }.AddressType.GetSourceValue());
+        Assert.AreEqual("Mailing", BuildingHasAddressRelationshipAddressType.Mailing.GetSourceValue());
+        Assert.AreEqual("Mailing", new BuildingHasAddressRelationship { AddressType = BuildingHasAddressRelationshipAddressType.Mailing }.AddressType.GetSourceValue());
     }
 
     [TestMethod]

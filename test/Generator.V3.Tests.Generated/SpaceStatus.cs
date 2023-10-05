@@ -10,13 +10,13 @@ namespace Generator.V3.Tests.Generated
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum SpaceStatus
     {
-        [EnumMember(Value = "Active"), Display(Name = "Active", Description = "active"), SourceValue(Value = "1")]
+        [EnumMember(Value = "Active"), Display(Name = "Active", Description = "active"), SourceValue(Value = "Active")]
         Active,
-        [EnumMember(Value = "Inactive"), Display(Name = "Inactive", Description = "inactive"), SourceValue(Value = "2")]
+        [EnumMember(Value = "Inactive"), Display(Name = "Inactive", Description = "inactive"), SourceValue(Value = "Inactive")]
         Inactive,
-        [EnumMember(Value = "Pending"), Display(Name = "Pending", Description = "pending"), SourceValue(Value = "3")]
+        [EnumMember(Value = "Pending"), Display(Name = "Pending", Description = "pending"), SourceValue(Value = "Pending")]
         Pending,
-        [EnumMember(Value = "UnderConstruction"), Display(Name = "Under Construction", Description = "underConstruction"), SourceValue(Value = "4")]
+        [EnumMember(Value = "UnderConstruction"), Display(Name = "Under Construction", Description = "underConstruction"), SourceValue(Value = "UnderConstruction")]
         UnderConstruction
     }
 }

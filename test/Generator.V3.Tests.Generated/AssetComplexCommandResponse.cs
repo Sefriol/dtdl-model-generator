@@ -10,7 +10,7 @@ namespace Generator.V3.Tests.Generated
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum AssetComplexCommandResponse
     {
-        [EnumMember(Value = "input1"), Display(Name = "input1"), SourceValue(Value = "1")]
+        [EnumMember(Value = "input1"), Display(Name = "input1"), SourceValue(Value = "input1")]
         input1
     }
 }

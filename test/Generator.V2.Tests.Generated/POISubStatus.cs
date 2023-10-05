@@ -10,9 +10,9 @@ namespace Generator.V2.Tests.Generated
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum POISubStatus
     {
-        [EnumMember(Value = "Available"), Display(Name = "Available", Description = "available"), SourceValue(Value = "1")]
+        [EnumMember(Value = "Available"), Display(Name = "Available", Description = "available"), SourceValue(Value = "Available")]
         Available,
-        [EnumMember(Value = "Unavailable"), Display(Name = "Unavailable", Description = "unavailable"), SourceValue(Value = "2")]
+        [EnumMember(Value = "Unavailable"), Display(Name = "Unavailable", Description = "unavailable"), SourceValue(Value = "Unavailable")]
         Unavailable
     }
 }
